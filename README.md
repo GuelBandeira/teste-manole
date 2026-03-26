@@ -1,5 +1,24 @@
 # Teste Técnico - Desenvolvedor Fullstack Pleno
 
+## [1] Lógica (IMPLEMENTADO COMO UM ENDPOINT DA API, EM /logica)
+
+### **ENDPOINT: /logica**
+### **URL completa: http://localhost:3005/logica**
+
+
+Implemente uma função que receba uma lista de números inteiros e retorne:
+
+* A soma dos números pares
+* A média dos números ímpares
+* Ignore valores inválidos (null, string, undefined)
+
+**Exemplo de entrada:**
+
+```json
+[1, 2, 3, 4, 5, "a", null]
+```
+
+
 ## [2] Conceitos (resposta escrita curta)
 
 ### Responda brevemente:
