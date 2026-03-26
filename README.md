@@ -3,7 +3,7 @@
 ## [1] Lógica (IMPLEMENTADO COMO UM ENDPOINT DA API, EM /logica)
 
 ### **ENDPOINT: /logica**
-### **URL completa: http://localhost:3005/logica**
+### **URL para teste da lógica: http://localhost:3005/logica**
 
 
 Implemente uma função que receba uma lista de números inteiros e retorne:
@@ -16,6 +16,15 @@ Implemente uma função que receba uma lista de números inteiros e retorne:
 
 ```json
 [1, 2, 3, 4, 5, "a", null]
+```
+
+**Saída esperada:**
+
+```json
+{
+  "somaPares": 6,
+  "mediaImpares": 3
+}
 ```
 
 
