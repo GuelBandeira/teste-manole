@@ -1,0 +1,22 @@
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: backend
+    container_name: teste-manole-backend
+    environment:
+      PORT: 3005
+    ports:
+      - "3005:3005"
+
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: frontend
+    container_name: teste-manole-frontend
+    depends_on:
+      - backend
+    ports:
+      - "3000:3000"
